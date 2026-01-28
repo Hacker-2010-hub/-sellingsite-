@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your Website Here</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f0f8ff; color: #333; text-align: center; }
+        header { background-color: #4CAF50; color: white; padding: 20px; }
+        section { margin: 20px 0; }
+        button { background-color: #ff5722; color: white; border: none; padding: 15px 30px; font-size: 18px; cursor: pointer; }
+        button:hover { background-color: #e64a19; }
+        .price { font-size: 24px; color: #4CAF50; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Buy a Custom Website!</h1>
+        <p>Made by a Teen on iPad – Simple, Fast, and Affordable</p>
+    </header>
+    <section>
+        <h2>What You Get</h2>
+        <p>A basic website like portfolios or landing pages. Customizable with your info. Delivered in 1 hour!</p>
+        <ul style="list-style: none;">
+            <li>Responsive design</li>
+            <li>Free hosting setup</li>
+            <li>Basic code included</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Price</h2>
+        <p class="price">$15 per website</p>
+        <button onclick="window.location.href='mailto:fa386771@gmail.com?subject=Buy Website&body=I want to buy a website for $15. How do I pay?'">Contact to Buy</button>
+        <p>Email: fa386771@gmail.com | Pay via cash, gift card, or app (details on reply)</p>
+    </section>
+    <script>
+        // Simple alert for fun
+        document.querySelector('button').addEventListener('click', function() {
+            alert('Email sent – let's get you a website!');
+        });
+    </script>
+</body>
+</html>
