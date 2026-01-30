@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Site - Shop Now!</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #f4f4f4; }
+        h1, h2 { color: #333; }
+        .product { border: 1px solid #ddd; padding: 20px; margin: 20px auto; max-width: 600px; background: white; border-radius: 8px; }
+        .buy-button { background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
+        .qr-code { margin: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Website!</h1>
+    <p>I'm a teen coder selling cool digital stuff. Check out my shop below!</p>
+
+    <h2>For Sale</h2>
+    
+    <!-- Example Product 1 -->
+    <div class="product">
+        <h3>Custom HTML Template - ₹200</h3>
+        <p>A simple, responsive website template for beginners. Includes HTML, CSS, and basic JS.</p>
+        <p>Pay via UPI: Scan the QR code or use ID: YOUR_UPI_ID (e.g., 8826095536@paytm)</p>
+        <img src="YOUR_QR_IMAGE_URL" alt="UPI QR Code" class="qr-code" width="200"> <!-- Upload your QR image to the repo and link it here -->
+        <br>
+        <a href="mailto:YOUR_GMAIL?subject=Purchase%20Inquiry&body=Hi,%20I%20want%20to%20buy%20the%20HTML%20Template." class="buy-button">Contact Me to Buy</a>
+    </div>
+
+    <!-- Add more products here by copying the div above -->
+
+    <h2>Contact</h2>
+    <p>Email: YOUR_GMAIL | UPI: YOUR_UPI_ID</p>
+    <p>Payments via scanner (QR) only for security!</p>
+</body>
+</html>
